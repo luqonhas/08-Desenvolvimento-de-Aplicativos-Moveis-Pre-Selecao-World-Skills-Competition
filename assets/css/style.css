@@ -98,11 +98,12 @@ ul:nth-child(1) li{
 
 .header-nav-mobile{
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     margin-right: 80px;
     flex-direction: row;
     width: 400px;
     padding: 10px 0px;
+    position: absolute;
 }
 
 .header-nav-mobile li{
@@ -113,7 +114,7 @@ ul:nth-child(1) li{
 }
 
 .header-nav-mobile li a{
-    display: flex;
+    display: none;
     width: 100px;
     flex-direction: row;
 }
